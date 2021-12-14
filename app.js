@@ -21,4 +21,4 @@ var passedNumber = document.getElementsByClassName("passedNumber");
 var failedNumber = document.getElementsByClassName("failedNumber");
 var failedPercentage = document.getElementsByClassName("failedPercentage");
 
-var college = new College;
+var college = new College();

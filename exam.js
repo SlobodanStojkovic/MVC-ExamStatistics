@@ -8,7 +8,7 @@ function Exam(subject, student, grade) {
 
 Exam.prototype.getExamInfo = function () {
     return this.subject + ", " + this.student;
-}
+};
 
 Exam.prototype.hasPassed = function () {
     if (grade > 5) {
@@ -16,5 +16,5 @@ Exam.prototype.hasPassed = function () {
     } else {
         return "failed";
     }
-}
+};
 

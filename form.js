@@ -1,6 +1,5 @@
-"use strict";
-
 function buttonAdd() {
+    "use strict";
 
     function validateData() {
         var subjectValue = subject.value;
@@ -8,7 +7,7 @@ function buttonAdd() {
         var gradeValue = grade.value;
 
         if (!subjectValue || !nameSurnameValue || !gradeValue) {
-            errorMessage.textContent = "Please fill out all fields!"
+            errorMessage.textContent = "Please fill out all fields!";
         }
 
         errorMessage.textContent = "";
@@ -20,8 +19,8 @@ function buttonAdd() {
         var exam = new Exam(subject.value, nameSurname.value, grade.value);
 
         if (exam.grade > 10 || exam.grade < 1) {
-            errorMessage.textContent = "Please enter valid grade!"
-            return
+            errorMessage.textContent = "Please enter valid grade!";
+            return;
         }
 
         errorMessage.textContent = "";

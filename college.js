@@ -1,7 +1,6 @@
-"use strict";
-
 function College() {
-    this.studentGrades = [];
-    this.passedList = [];
-    this.failedList = [];
+  "use strict";
+  this.studentGrades = [];
+  this.passedList = [];
+  this.failedList = [];
 }
